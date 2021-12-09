@@ -1,0 +1,77 @@
+body
+h3 {
+    font-family: 'Righteous', cursive;
+    }
+
+.jumbotron {
+    background-color: #b28dff;
+    font-family: 'Righteous', cursive;
+    height: 100%;
+    padding: 15px; 
+    text-align: center;
+    }
+
+/* esta es la barra de navegacion*/
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+    }
+.navbar-nav {
+    background-color: #ffb5e8; 
+    }
+li {
+    float: left;
+    list-style-type: none;
+    }
+li a {
+    display: block;
+    font-family: 'Righteous', cursive;
+    padding: 20px;    
+    }
+form {
+  margin-top: 15px;
+}
+/* hasta acá va la barra nav*/
+
+/*empieza el cuerpo de la web*/
+{
+  border: 2px dashed #b28dff;
+  font-size: 15px;
+  text-align: center;
+}
+img.body {
+  margin: auto;
+  height: 200px;
+  width: 50%;
+  opacity: 0.5;
+  }
+
+img:hover {
+  opacity: 1.0;
+  }
+
+article {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+ {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+}
+/* hasta acá el cuerpo de la web*/
+
+footer {
+  background-color: #b28dff;
+  font-family: 'Righteous', cursive;
+  padding: 15px; 
+  text-align: center;
+}
+
